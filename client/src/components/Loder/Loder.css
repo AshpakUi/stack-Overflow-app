@@ -4,19 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
   }
-  .loader1{
-    height: 300px;
-    width: 300px;
-    border: 12px solid white;
-     border-left: 12px solid rgb(56, 199, 37); 
-    border-right:12px solid #acc08d; 
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    animation: loader 1s ease-in-out infinite;
-  } 
+
   .loader2{
    height: 210px;
    width: 210px;

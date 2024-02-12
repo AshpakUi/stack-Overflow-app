@@ -18,5 +18,6 @@
   },
   "author": "Ashpak shaikh",
   "license": "ISC",
-  "description": ""
+  "description": "",
+   "start":"node app.js"
 }

@@ -4,6 +4,12 @@
     margin: 25px 0px;
     padding: 0;
 }
+@media screen and (max-width: 880px) {
+    .main-bar{
+      width: calc(100%);
+    }
+  }
+
 .main-bar-header{
     display: flex;
     justify-content:space-between;
