@@ -19,5 +19,5 @@
   "author": "Ashpak shaikh",
   "license": "ISC",
   "description": "",
-   "start":"node server.js"
+   "start":"node app.js"
 }
