@@ -13,7 +13,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
+ "scripts": {
+  "start": "node server/app.js"
+},
+ "scripts": {
     "start": "nodemon index.js"
   },
   "author": "Ashpak shaikh",
@@ -21,3 +24,4 @@
   "description": "",
    "start":"node app.js"
 }
+
