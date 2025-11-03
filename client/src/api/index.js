@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API =axios.create({baseURL:"https://stack-overflow-3bkb.onrender.com"});
+const API =axios.create({baseURL:"https://server-jn4n.onrender.com"});
 
 API.interceptors.request.use((req)=>{
     if(localStorage.getItem("Profile")){
@@ -21,5 +21,6 @@ export const postAnswer=(id,noOfAnswers,answerBody,userAnswered,userId)=>API.pat
 export const deleteAnswer=(id,answerId,noOfAnswers)=>API.patch(`/answer/delete/${id}`,{answerId,noOfAnswers})
 
 export const fetchAllUser=()=>API.get("/user/getAllUsers")
+
 
 export const updateProfile=(id,updateData)=>API.patch(`/user/update/${id}`,updateData)
